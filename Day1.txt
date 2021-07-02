@@ -84,3 +84,14 @@ git config --global user.name "이름"
 
 6.여러 파일 커밋
     git commit -m "현재 디렉토리에 있는 모든 파일을 커밋"
+
+github
+- git 으로 버전관리하 코드를 올릴수 있는 클라우드 서비스
+- 단순한 저장만 하는것이 아니라 유저들과 함께 코드를 공유하고 온라인으로 하나의 프로그램을 같이 제작할 수있께 만듬
+
+7. 로컬 저장소에 github 저장소 주소 설정
+    git remote add origin https://github.com/jaesung712/start.git
+
+8. 만든 커밋 github에 푸시
+    git push -u origin main 현재 가입자
+    git push -u origin master -> 이전 사용자
